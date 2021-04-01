@@ -68,19 +68,4 @@ public class WebController  {
 		return viewAllStudents(model);
 	}
 
-
-//	@RequestMapping("/error")
-//    public String handleError(@PathVariable("studentId") long id, Model model) {
-//		Student student = studentRepository.findById(id).or;
-//		if(student.getFirstName() == null || student.getLastName() == null) {
-//			return "error";	
-//		}
-//        return viewAllStudents(model);
-//    }
-	
-//	@Override
-//	public String getErrorPath() {
-//		return null;
-//	}
-
 }

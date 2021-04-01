@@ -53,12 +53,5 @@ public class StudentConfiguration {
 			studentRepository.saveAll(stl);
 		};
 	}
-	
-//	@Bean
-//	public Student student() {
-//		Student stu = new Student();
-//		return stu;
-//		
-//	}
 
 }
