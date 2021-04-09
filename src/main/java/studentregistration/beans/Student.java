@@ -35,19 +35,19 @@ public class Student {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	
 	private long studentId;
 
-	@NotEmpty
+	
 	@Column(name = "first_name",nullable = false)
 	private String firstName;
 	
-	@NotEmpty
+	
 	@Column(name = "last_name")
 	private String lastName;
 	
-	@NotEmpty
+	
 	@Column(name = "email",nullable = false)
 	private String email;
 	
-	@NotEmpty
+	
 	@Column(name = "major",nullable = false)
 	private String major;
 	

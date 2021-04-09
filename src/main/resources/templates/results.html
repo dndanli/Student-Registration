@@ -17,15 +17,16 @@
 				<td th:text="${currentStudent.email}" />
 				<td th:text="${currentStudent.major}" />
 				<td th:text="${currentStudent.gpa}" />
-			
-			
+
+
+
 				<td><a th:href="@{/edit/{id}(id=${currentStudent.studentId})}">Edit</a></td>
 				<td><a th:href="@{/delete/{id}(id=${currentStudent.studentId})}">Delete</a></td>
-			
+
 			</tr>
 		</table>
 	</form>
-	
+
 	<div class = "col-sm-10">
 		<a href="../insertNewStudent">Add a new student</a>
 	</div>
